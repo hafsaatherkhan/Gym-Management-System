@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Gym Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="membership-background">
+    <header>
+        <h1>Gym Management System</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About Us</a>
+        <a href="/membership">Membership</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>&emsp;Membership</h2>
+            <p>&emsp;Choose the membership that fits your lifestyle. We offer monthly, quarterly, and annual memberships with access to all facilities, personal training sessions, and group classes. Become a member today and start achieving your fitness goals!</p>
+        </section>
+        <section class="membership-plans">
+            <h3>&emsp;Our&nbsp;Plans &emsp;</h3>
+            <div class="plan">
+                <h4>Basic Membership</h4>
+                <p>Access to gym facilities during business hours.</p>
+                <p><strong>$30/month</strong></p>
+            </div>
+            <div class="plan">
+                <h4>Premium Membership</h4>
+                <p>Access to gym facilities 24/7, plus personal training sessions.</p>
+                <p><strong>$50/month</strong></p>
+            </div>
+            <div class="plan">
+                <h4>VIP Membership</h4>
+                <p>All the benefits of Premium, plus unlimited group fitness classes and special events.</p>
+                <p><strong>$80/month</strong></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Gym Management System &copy; 2024</p>
+    </footer>
+</body>
+</html>
